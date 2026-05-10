@@ -3,16 +3,21 @@
   <head>
     <title>Table</title>
     <style>
-      table,th,td{
+    table,th,td{
   text-align:center;
   border:1px solid black;
   border-collapse:collapse;
   padding:10px;
   font-size:large;
   }
-  tr:nth-child(odd){
-    background-color:rgb(100,180,135)
+  tr:nth-child(even){
+  background-color:rgb(176,196,222)
   }
+ tr:nth-child(odd){
+  background-color:rgb(230,230,250);
+  }
+
+
     </style>
   </head>
  
@@ -20,6 +25,12 @@
   <center>
     <h2>Student Table</h2>
     <table>
+       <tr>
+      <td>Roll No</td>
+      <td>Name</td>
+      <td>Department</td>
+    </tr>
+      
     <tr>
       <td>101</td>
       <td>Asma Jan</td>
