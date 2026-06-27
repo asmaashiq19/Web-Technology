@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .stick {
+            position: sticky;
+            top: 0;
+            background-color: lightblue;
+            padding: 10px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .ext {
+            height: 200px;
+            background-color: lightgreen;
+            padding: 10px;
+            font-size: 20px;
+            width: 400px;
+        }
+        .rel {
+            height: 200px;
+            background-color: lightcoral;
+            top:0;
+            padding: 10px;
+            font-size: 20px;
+        }
+</head>
+<body>
+    <div class="stick">This div becomes the immediate ancestor</div>
+    <div class="ext">This div is the 1st child</div>
+    <div class="rel">This div is the 2nd child</div>
+</body>
+</html>
