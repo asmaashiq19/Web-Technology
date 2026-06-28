@@ -1,0 +1,13 @@
+p:first-child{
+  color:rgb(127, 127, 217);
+  font-weight:bold;
+  background-color:jade;
+}
+p em:first-child{
+    color:#6cc3e1;
+    font-weight:bold;
+}
+p:first-child em{
+    color:rgb(212, 94, 133);
+    font-weight:bold;
+}
