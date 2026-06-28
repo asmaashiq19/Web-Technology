@@ -1,0 +1,22 @@
+.div{
+    border: 1px solid black;
+    margin:10px;
+    background-color:rgb(109, 185, 123);
+}
+.inline{
+    border: 1px solid rgb(14, 13, 13);
+    display:inline;
+    padding:3px;
+    margin:10px;
+    width:20px;
+    height:30px;
+    background-color:rgb(109, 185, 123);
+    color:white;
+}
+.container{
+    background-color:rosybrown;
+    padding:10px;
+    width:100px;
+    height: 100px;
+    margin:10px;
+}
