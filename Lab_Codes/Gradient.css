@@ -1,0 +1,25 @@
+.box{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    background: linear-gradient(rgb(111, 205, 156), rgb(210, 109, 185) ,rgb(73, 171, 213));
+}
+.box2{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    background: radial-gradient(circle, rgb(164, 67, 77), rgb(223, 78, 242) ,rgb(112, 176, 169));
+}
+.box3{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    background: conic-gradient(rgb(180, 91, 128), rgb(182, 58, 210) ,rgb(46, 183, 214));
+}
+.box4{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    background: repeating-linear-gradient(45deg, rgb(111, 205, 156), rgb(210, 109, 185) 10px ,rgb(73, 171, 213) 20px);
+    border-radius:50%;
+}
