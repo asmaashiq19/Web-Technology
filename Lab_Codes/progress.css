@@ -1,0 +1,28 @@
+#Programming_Languages{
+  margin-top:50px;
+  margin-bottom:50px;
+  text-align:center;
+}
+#Programming_Languages.skill{
+  margin-bottom:20px;
+}
+#Programming_Languages.progress-bar{
+  width:0;
+  height:20px;
+  background-color:linear-gradient(to right,#831bcd,black,red);
+  border-radius:10px;
+  animation:none;
+}
+#Programming_Languages.progress{
+  height:100px;
+  border-radius:10px;
+  background-color:transparent;
+}
+#Programming_Languages{
+  animation: ani 5s ease forwards;
+}
+@keyframes ani{
+  to{
+    width:var(--progress);
+  }}
+  
