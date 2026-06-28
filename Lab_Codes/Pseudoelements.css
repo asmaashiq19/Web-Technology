@@ -1,0 +1,11 @@
+p::first-line{
+    color:rgb(37, 152, 219);
+}
+.P2::first-letter{
+    color:rgb(212, 94, 133);
+    font-size:30px;
+    font-weight:bold;
+}
+h2::after{
+    content:url(icon.ico);
+}
