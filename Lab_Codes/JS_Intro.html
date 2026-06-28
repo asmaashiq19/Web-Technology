@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Introduction</title>
+     <script >
+        function myF(){
+         document.getElementById('p1').innerHTML = 'Hello, JavaScript!';
+        }
+     </script>
+</head>
+<body>
+    <h3>Learning JavaScript</h3>
+    <p>Welcome to the world of JavaScript!</p>
+    <button onclick="myF();">Click Me!</button>
+    <p id="p1"></p>
+    <div>
+  <img id="img1"
+     src="cat2.png"
+     alt="JS"
+     width="300"
+     height="200">
+
+<button onclick="document.getElementById('img1').src='cat2.png'">
+    Show First Image
+</button>
+
+<button onclick="document.getElementById('img1').src='cat0.png'">
+    Change Image
+</button>
+    </div>
+   
+    
+</body>
+</html>
