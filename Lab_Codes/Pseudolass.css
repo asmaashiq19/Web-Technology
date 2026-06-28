@@ -11,3 +11,6 @@ p:first-child em{
     color:rgb(212, 94, 133);
     font-weight:bold;
 }
+q:lang(yes){
+    quotes:'<' '?';
+}
